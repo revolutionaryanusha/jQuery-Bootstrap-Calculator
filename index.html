@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+
+<body style="background-image:url(aa.jpg); background-repeat: no-repeat; background-size: 110% 100%;">
+    <!-- Your calculator code will go here -->
+    <div id="wrap">
+    <div id="calculator" class="col-md-6 offset-md-4">
+        <div> <h6> ANUSHA ZUBAIR  <br> 5/4/2023</h6></div>
+        <div id="screen">
+            <input type="text" class="form-control calculator-sceen" value="" readonly  style="width: max-content;"/>
+        </div>
+        <div style="display: flex;">
+            <div>
+                <button class="opt btn btn-primary" data-value="=" style="height: 85%; margin-top: 20px ;">=</button >
+            </div>
+            <div class="buttons">
+                
+                <div class="nums">
+                    <button class="btn btn-dark num" data-value="1">1</button>
+                    <button class="btn btn-dark num" data-value="2">2</button>
+                    <button class="btn btn-dark num" data-value="3">3</button>
+                    <button class="opt btn btn-primary" data-value="+">+</button>
+                </div>
+    
+                <div class="nums">
+                    <button class="btn btn-dark num" data-value="4">4</button>
+                    <button class="btn btn-dark num" data-value="5">5</button>
+                    <button class="btn btn-dark num" data-value="6">6</button>
+                    <button class="opt btn btn-primary" data-value="-">- </button>
+                </div>
+    
+                <div class="nums">
+                    <button class="btn btn-dark num" data-value="7">7</button>
+                    <button class="btn btn-dark num" data-value="8">8</button>
+                    <button class="btn btn-dark num" data-value="9">9</button>
+                    <button class="opt btn btn-primary" data-value="*">&times;</button>
+                </div>
+    
+                <div class="nums">
+                    <button class="btn btn-dark cls" data-value="all-clear">C</button>
+                    <button class="btn btn-dark num" data-value="0">0</button>
+                    <button class="btn btn-primary num" data-value=".">.</button>
+                   
+                     <button class="opt btn btn-primary" data-value="/">&divide;</button>
+                  
+                 </div>
+    
+                
+    
+    
+                </div>
+            </div>
+        </div>
+       
+
+    </div>
+
+    <!-- Add jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Add Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Add your own JavaScript -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
